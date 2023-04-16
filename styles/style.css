@@ -1,0 +1,137 @@
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    color: gray;
+    text-decoration: none;
+    padding: 20px;
+}
+a:hover{
+    background-color: rgb(34, 34, 34);
+}
+a:active{
+    background-color: black;
+    color: azure;
+}
+.top_mini{
+	background-color: rgb(50, 48, 48);
+    position: relative;
+    padding: 20px;
+    padding-left: 205px;	
+}
+.top_mini a{
+    padding: 20px;
+}
+.top_mini img{ 
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 150px;
+    bottom: 5px;
+    z-index: 1000;
+}
+.top_mini img:hover{
+    transform: scale(1.3) rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+.top_mini img:not(:hover){
+    transform:  rotate(360de);
+    transition: transform 0.5s ease-in-out;
+}
+form{
+    position: absolute;
+    right: 150px;
+    bottom: 10px;
+    margin: auto;    
+}
+input{
+    padding: 10px 10px;
+    border-radius: 7px;   
+}
+.top{
+	background-color: rgb(156, 224, 47);
+	color:rgb(194, 255, 103);
+	padding-top: 50px;
+    padding-bottom: 50px;
+	padding-left: 150px;
+	font-size: 130%;
+    position: relative;
+}
+.top h1{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.top img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;    
+}
+.top button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.top button:hover {
+    background-color: #3e8e41;
+  }
+.top button:active {
+    background-color: #1e442b;
+  }
+.bot h1{
+    border-bottom: 2px solid gray;
+    margin: 150px 150px;
+    margin-top: 70px;
+    margin-bottom: auto;
+    position: relative;
+}
+.bot span{
+    color: gray;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.bot p{
+    margin: 150px 150px;
+    margin-top: 20px;
+    bottom: auto;
+    color: gray;
+    position: relative;  
+}
+.imbot img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 130px;        
+}
+.imbot{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 150px 150px;
+    position: relative;
+}   
+.container{
+    margin: 150px 150px;
+    position: relative;
+    bottom: 250px;
+    column-count: 3;
+    column-gap: 20px;
+    color: gray;
+}
+.column{
+    break-inside: avoid;
+}
+.container h2{
+    margin-top: auto;
+    color: cornflowerblue;
+}
+
+
